@@ -184,6 +184,9 @@ body {
     opacity: 0.15;
     z-index: -1;
     pointer-events: none;
+    mix-blend-mode: lighten;
+    -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 75%);
+    mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 75%);
 }
 
 .hero-title {
